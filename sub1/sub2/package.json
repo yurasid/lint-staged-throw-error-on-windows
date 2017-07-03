@@ -1,0 +1,25 @@
+{
+  "name": "lint-staged-throw-error-on-windows",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "gitDir": "../../",
+    "linters": {
+      "*.scss": [
+        "stylelint"
+      ]
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^0.14.2",
+    "lint-staged": "^4.0.0",
+    "stylelint": "^7.12.0",
+    "stylelint-config-standard": "^16.0.0"
+  }
+}
